@@ -1,0 +1,69 @@
+ndow.zoomLevel": -1,
+    "editor.formatOnSave": true,
+    "workbench.colorTheme": "One Dark Darker with Border",
+    "editor.inlineSuggest.enabled": true,
+    "workbench.iconTheme": "vscode-icons",
+    "window.menuBarVisibility": "toggle",
+
+    // Controls whether the smooth caret animation should be enabled.
+    "editor.cursorSmoothCaretAnimation": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "vs-kubernetes": {
+        "vscode-kubernetes.kubectl-path.linux": "/home/radu/.vs-kubernetes/tools/kubectl/kubectl",
+        "vscode-kubernetes.helm-path.linux": "/home/radu/.vs-kubernetes/tools/helm/linux-amd64/helm",
+        "vscode-kubernetes.minikube-path.linux": "/home/radu/.vs-kubernetes/tools/minikube/linux-amd64/minikube"
+    },
+    "redhat.telemetry.enabled": true,
+    "terminal.integrated.inheritEnv": false, 
+
+    // jumpy
+    "jumpy.wordRegexp": "\\w{2,}",
+    "jumpy.lineRegexp": "^\\s*$",
+    "helium-icon-theme.folders.color": "#26a69a",
+    "editor.minimap.enabled": false,
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": true,
+        "plaintext": true,
+        "markdown": true,
+        "python": true
+    },
+    
+    // Jupyter notebooks
+    "notebook.cellFocusIndicator": "border",
+    "notebook.lineNumbers": "on",
+    "breadcrumbs.enabled": false,
+    "jupyter.themeMatplotlibPlots": true,
+    "jupyter.askForKernelRestart": false,
+    "jupyter.jupyterServerType": "remote",
+
+    // Python
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python"
+    },
+    "python.linting.enabled": true,
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+        "--skip-string-normalization",
+        "--line-length",
+        "120"
+    ],
+
+    // VueJS
+    "[vue]": {
+        "editor.defaultFormatter": "octref.vetur"
+    },
+
+    // TypeScript
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+
+    // GO
+    "go.lintTool": "revive",
+    "go.lintFlags": [
+        "--config=${workspaceFolder}/config.toml"
+    ],
+
+
+} 
