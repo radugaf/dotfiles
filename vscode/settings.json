@@ -1,4 +1,6 @@
-ndow.zoomLevel": -1,
+{
+    // General VSCode settings
+    "window.zoomLevel": -1,
     "editor.formatOnSave": true,
     "workbench.colorTheme": "One Dark Darker with Border",
     "editor.inlineSuggest.enabled": true,
@@ -64,6 +66,4 @@ ndow.zoomLevel": -1,
     "go.lintFlags": [
         "--config=${workspaceFolder}/config.toml"
     ],
-
-
 } 
