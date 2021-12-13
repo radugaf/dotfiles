@@ -138,7 +138,7 @@ lvim.builtin.treesitter.textobjects = {
   },
 }
 
--- lvim.builtin.lualine.options.theme = ""
+lvim.builtin.lualine.options.theme = "onedarker"
 
 -- local actions = require "telescope.actions"
 -- lvim.builtin.telescope.defaults.mappings.i["<C-j>"] = actions.move_selection_next
