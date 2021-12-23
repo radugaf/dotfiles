@@ -1,8 +1,5 @@
 {
-    // General VSCode settings
-    "window.zoomLevel": -1,
     "editor.formatOnSave": true,
-    "workbench.colorTheme": "One Dark Darker with Border",
     "editor.inlineSuggest.enabled": true,
     "workbench.iconTheme": "vscode-icons",
     "window.menuBarVisibility": "toggle",
@@ -28,13 +25,15 @@
         "yaml": true,
         "plaintext": true,
         "markdown": true,
-        "python": true
+        "python": true,
+        "go": true,
+        "javascript": true,
+        "vue": true
     },
     
     // Jupyter notebooks
     "notebook.cellFocusIndicator": "border",
     "notebook.lineNumbers": "on",
-    "breadcrumbs.enabled": false,
     "jupyter.themeMatplotlibPlots": true,
     "jupyter.askForKernelRestart": false,
     "jupyter.jupyterServerType": "remote",
@@ -58,7 +57,7 @@
 
     // TypeScript
     "[typescript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
 
     // GO
@@ -66,4 +65,13 @@
     "go.lintFlags": [
         "--config=${workspaceFolder}/config.toml"
     ],
+    
+    "workbench.colorTheme": "One Dark Darker with Border",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "explorer.confirmDelete": false,
+    "editor.fontFamily": "'Gintronic Medium', 'monospace', monospace, 'Gintronic Medium'",
+    "editor.cursorBlinking": "solid",
+    "bracketPairColorizer.depreciation-notice": false,
+    "go.toolsManagement.autoUpdate": true,
+    "window.zoomLevel": -1,
 } 
