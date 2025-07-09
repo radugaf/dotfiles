@@ -1,3 +1,0 @@
-# My LunarVim Config
-
-
